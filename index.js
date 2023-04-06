@@ -1,6 +1,5 @@
 import express from 'express'
 import bodyParser from 'body-parser'
-import { connection } from './DB/DB_quests.js'
 import { Pergunta } from './DB/TB_Perguntas.js'
 import { Resposta } from './DB/TB_Respostas.js'
 

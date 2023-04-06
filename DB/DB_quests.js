@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize'
 
-const connection = new Sequelize('db_quests', 'root', '!@#1q2w3e4r', {
+const connection = new Sequelize('db_quests', 'root', '12345', {
     host: 'localhost',
     dialect: 'mysql'
 })
