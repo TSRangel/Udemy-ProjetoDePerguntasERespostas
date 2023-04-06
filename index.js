@@ -9,7 +9,7 @@ const app = express()
 
 
 app.use(express.static('public'))
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extendeds: false }))
 app.use(bodyParser.json())
 app.set('view engine', 'ejs')
 
